@@ -1,0 +1,18 @@
+.table {
+    background-color: #e6e6e6;
+    font-size: 18px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.table__title {
+    background-color: #ffffff;
+}
+
+.table__header{
+    width: 200px;
+    text-align: start;
+    padding: 10px;
+    font-weight: normal;
+    color: #959595;
+}

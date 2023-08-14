@@ -1,0 +1,8 @@
+.table__row{
+    cursor: pointer;
+}
+
+.table__cell{
+    padding: 10px;
+    border-bottom: 1px solid #c3c3c3;
+}

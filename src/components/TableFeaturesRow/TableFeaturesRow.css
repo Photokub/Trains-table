@@ -1,0 +1,52 @@
+.table-features__cell{
+    text-align: center;
+}
+
+.table-features__header{
+    text-align: center;
+}
+
+.table-features__input{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.table-features__input:focus{
+    outline: none;
+    border: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.table-features{
+    display: flex;
+    flex-direction: column;
+}
+
+.table-features__button_disabled{
+    color: #AAA;
+    border: #959595;
+}
+
+.table-features__cell_error{
+    border: 1px solid red;
+}
